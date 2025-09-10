@@ -1,0 +1,17 @@
+Integrantes: João Victor B.C.Teixeira - 11921BSI212; Rafael Gomes Souto Maia - 11921BSI205; Ricky William Ferraz da Silva - 12011BSI2062
+
+==========================
+COMPILAR E EXECUTAR O JOGO
+==========================
+
+Professor, para rodar nosso projeto, siga os passos abaixo.
+
+1. COMPILAR:
+   Para compilar todo o codigo-fonte, simplesmente execute o arquivo "compilar.bat" com um duplo clique.
+   Uma janela de terminal ira aparecer e mostrar o processo. Ao final, ela pedira para pressionar uma tecla para continuar.
+
+2. EXECUTAR/JOGAR:
+   Apos a compilacao, para jogar o jogo, simplesmente execute o arquivo "executar.bat" com um duplo clique.
+   O jogo sera iniciado na janela do terminal.
+
+Obrigado!

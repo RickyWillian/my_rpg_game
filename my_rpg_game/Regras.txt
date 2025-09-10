@@ -1,0 +1,36 @@
+Regras 
+
+Turnos - sistema de Pontos de Ação (PA) para cada personagem por turno.
+		Cada personagem começa o turno com 2 PA.
+
+		Habilidades básicas (ataque com arma): Custo de 1 PA.
+
+		Habilidades Especiais: Custo de 2 PA.
+
+	Magias: O Mago pode ter um sistema de Pontos de Magia (PM). A cada turno, ele recupera um pouco de PM, e cada magia custa uma quantidade de PM.
+
+    Bola de Fogo: 3 PM
+
+    Escudo: 4 PM
+
+    Cura: 5 PM
+    
+    Flecha de vento: 3 PM
+    
+    Prisão de agua: 5 PM
+    
+
+
+Dano - 
+		Dano de Ataque: (Dano da arma) + (Bônus de Atributo) - (Defesa do Inimigo)
+
+		Dano Crítico: O dano crítico dobra o valor final do ataque. O Arqueiro e o Assassino usariam isso como sua principal estratégia.
+		
+		
+Niveis - 
+
+		Para cada nível, o personagem ganha 1 ponto de habilidade que pode ser investido em Atributos (Força, Destreza, Constituição, etc.).
+
+		A vida de cada personagem aumenta de acordo com a sua fórmula base mais o bônus de Constituição.
+
+    Exemplo: Um Guerreiro de nível 2 com 15 de Constituição (bônus de +2) teria: (10 * 2) + (2 * 2) = 24 de vida.

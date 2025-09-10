@@ -1,0 +1,9 @@
+vida de cada classe por nivel
+
+Arqueiro - (7 * nivel) + (con * nivel)
+Assassino - (7 * nivel) + (con * nivel)
+Barbaro - (12 * nivel) + (con * nivel)
+Guerreiro - (10 * nivel) + (con * nivel)
+Mago - (5 * nivel) + (con * nivel)
+Paladino - (10 * nivel) + (con * nivel)
+

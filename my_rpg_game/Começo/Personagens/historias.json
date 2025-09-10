@@ -1,0 +1,123 @@
+{
+  "cenaInicialId": "inicio",
+  "cenas": [
+    {
+      "id": "inicio",
+      "texto": "Você é {HEROI_NOME}, o {HEROI_CLASSE}. Você chega aos portões da vila de Folkvangr e encontra o guarda local, Biorn, que parece aflito.\n'Forasteiro! Que bom vê-lo! Nossa vila está sendo atormentada por goblins. Eles roubaram nosso sino cerimonial e o levaram para a floresta. Você nos ajudaria?'",
+      "opcoes": [
+        {
+          "texto": "Eu irei recuperar o sino. É uma questão de honra.",
+          "proximoId": "aceita_missao"
+        },
+        {
+          "texto": "Não tenho tempo para problemas de vilarejos. Tenho meu próprio caminho a seguir.",
+          "proximoId": "recusa_missao"
+        }
+      ]
+    },
+    {
+      "id": "recusa_missao",
+      "texto": "Você ignora o apelo do guarda e continua seu caminho. A vila de Folkvangr é deixada à própria sorte. FIM DE JOGO.",
+      "opcoes": []
+    },
+    {
+      "id": "aceita_missao",
+      "texto": "O rosto de Biorn se ilumina. 'Obrigado, nobre aventureiro! Os deuses o abençoem. Siga a trilha leste para a Floresta Sombria. Tenha cuidado, um batedor goblin foi visto por lá vigiando a entrada.'",
+      "opcoes": [
+        {
+          "texto": "Seguir para a Floresta Sombria.",
+          "proximoId": "batalha_goblin"
+        }
+      ]
+    },
+    {
+      "id": "batalha_goblin",
+      "texto": "Você adentra a floresta e não demora a encontrar a criatura. Um Goblin Batedor está de guarda, protegendo a entrada do covil.",
+      "acao": "BATALHA:IniGoblin",
+      "opcoes": [
+        {
+          "texto": "Continuar após a vitória.",
+          "proximoId": "decisao_caminho"
+        },
+        {
+          "texto": "Fim de jogo após a derrota.",
+          "proximoId": "derrota"
+        }
+      ]
+    },
+    {
+      "id": "decisao_caminho",
+      "texto": "Com o batedor derrotado, você encontra um mapa rudimentar em seus pertences. Ele mostra dois caminhos para a antiga torre de vigia onde o sino provavelmente está guardado.",
+      "opcoes": [
+        {
+          "texto": "Seguir pela ponte principal. É o caminho mais rápido, mas provavelmente bem guardado.",
+          "proximoId": "cena_ponte"
+        },
+        {
+          "texto": "Tentar o caminho oculto pelo pântano. É mais longo e perigoso, mas talvez seja mais furtivo.",
+          "proximoId": "cena_pantano"
+        }
+      ]
+    },
+    {
+      "id": "cena_ponte",
+      "texto": "Você escolhe o caminho da ponte. A estrutura de pedra é antiga e coberta de musgo. No meio dela, um Ogro colossal, maior do que qualquer um que você já viu, bloqueia a passagem, batendo sua clava no chão.",
+      "opcoes": [
+        {
+          "texto": "Confrontar o guardião da ponte.",
+          "proximoId": "batalha_ogro"
+        }
+      ]
+    },
+    {
+      "id": "batalha_ogro",
+      "texto": "O Ogro ruge ao vê-lo se aproximar. 'HUMANO TOLO! A SOMBRA ESMAGARÁ VOCÊ!'",
+      "acao": "BATALHA:IniOgro",
+      "opcoes": [
+        {
+          "texto": "Continuar após a vitória.",
+          "proximoId": "final_ponte_vitoria"
+        },
+        {
+          "texto": "Fim de jogo após a derrota.",
+          "proximoId": "derrota"
+        }
+      ]
+    },
+    {
+      "id": "final_ponte_vitoria",
+      "texto": "O Ogro tomba com um estrondo que abala a ponte. O caminho para a torre está livre. Você recupera o sino e o leva de volta para Folkvangr, onde é aclamado como um herói de força incomparável! PARABÉNS!",
+      "opcoes": []
+    },
+    {
+      "id": "cena_pantano",
+      "texto": "Você entra no pântano fétido. A água turva borbulha e o ar é pesado. Você precisa ter cuidado onde pisa para não afundar na lama.",
+      "opcoes": [
+        {
+          "texto": "Avançar silenciosamente.",
+          "proximoId": "chegada_torre_furtiva"
+        }
+      ]
+    },
+    {
+      "id": "chegada_torre_furtiva",
+      "texto": "Após uma travessia tensa, você emerge da névoa do pântano nos fundos da torre de vigia. Você vê o Ogro guardando a ponte à distância. A porta dos fundos da torre está aberta... o sino está logo ali.",
+      "opcoes": [
+        {
+          "texto": "Recuperar o sino furtivamente e voltar para a vila.",
+          "proximoId": "final_pantano_vitoria"
+        }
+      ]
+    },
+    {
+      "id": "final_pantano_vitoria",
+      "texto": "Você entra na torre sem ser notado, recupera o sino e retorna para Folkvangr. Biorn fica maravilhado. Você é aclamado não apenas por sua coragem, mas por sua astúcia! PARABÉNS!",
+      "opcoes": []
+    },
+    {
+      "id": "derrota",
+      "texto": "Você foi derrotado. Sua jornada termina aqui... FIM DE JOGO.",
+      "opcoes": []
+    }
+  ]
+}

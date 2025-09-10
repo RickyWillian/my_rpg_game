@@ -1,0 +1,95 @@
+Arqueiro
+
+O Arqueiro é um especialista em ataques de longo alcance. Ele causa dano consistente de longe e tem a capacidade de desabilitar inimigos.
+
+    Flecha Carregada: Aumente o dano do próximo ataque. Adicione um efeito de status de "Impedir Movimento" no alvo por 1 turno. O dano base é aumentado em 50% e o dano crítico dobra, resultando em um dano massivo.
+
+        Custo: 2 Pontos de Ação (PA).
+
+    Flecha Múltipla: O Arqueiro pode disparar três flechas em um único turno, cada uma causando dano base reduzido (50% do dano normal). Útil contra grupos de inimigos com pouca vida.
+
+        Custo: 2 PA.
+
+    Ataque Básico: Ataque de um único alvo à distância. Causa dano normal.
+
+        Custo: 1 PA.
+
+Assassino
+
+O Assassino é focado em combate corpo a corpo e ataques furtivos. Ele tem uma alta evasão e causa um dano explosivo em um único alvo.
+
+    Se Esconder: O Assassino entra em modo furtivo por um turno. Seu próximo ataque recebe um bônus de dano massivo (dano crítico). Além disso, enquanto escondido, ele tem uma alta taxa de evasão e é um alvo mais difícil para os inimigos.
+
+        Custo: 2 PA.
+
+    Golpe Letal: Um ataque rápido que causa dano moderado e tem uma chance maior de causar sangramento, que aplica dano por turno.
+
+        Custo: 1 PA.
+
+    Evasão: O Assassino pode se mover rapidamente, aumentando sua chance de esquivar-se de ataques por 2 turnos.
+
+        Custo: 1 PA.
+
+Bárbaro
+
+O Bárbaro é o "tanque" do grupo. Ele tem uma vida alta e pode absorver uma grande quantidade de dano, enquanto ataca os inimigos.
+
+    Modo Berserk: O Bárbaro aumenta sua vida e dano em porcentagem (ex: 20% do máximo de vida, 25% de dano extra). Ele se torna "imparável" por 3 turnos (imune a atordoamento e imobilização).
+
+        Custo: 2 PA.
+
+    Investida: O Bárbaro ataca e causa dano e imobiliza o inimigo por um turno. Isso é bom para "segurar" o inimigo mais perigoso.
+
+        Custo: 2 PA.
+
+Guerreiro
+
+O Guerreiro é uma máquina de causar dano físico em combate corpo a corpo.
+
+    Aumentar Ataques: Para cada nível, o Guerreiro ganha um ataque adicional. Por exemplo, no nível 1 ele faz um ataque, no nível 2 ele faz dois ataques, e assim por diante. Essa habilidade pode ser passiva, ativada automaticamente no início do turno, ou consumindo uma certa quantidade de Pontos de Ação.
+
+        Custo: 1 PA por ataque.
+
+    Ataque Defensivo: Causa dano e aumenta temporariamente a sua própria classe de armadura.
+
+        Custo: 1 PA.
+
+Mago
+
+O Mago é o especialista em controle de grupo e dano elemental. Ele tem uma variedade de magias úteis.
+
+    Magias: Use o sistema de Pontos de Magia (PM).
+
+        Bola de Fogo: Causa dano de fogo em um único inimigo.
+
+            Custo: 3 PM.
+
+        Escudo: Aumenta a Classe de Armadura por 2 turnos.
+
+            Custo: 4 PM.
+
+        Flecha de Vento: Causa dano de vento e tem a chance de empurrar o inimigo para longe.
+
+            Custo: 3 PM.
+
+        Cura: Restaura vida.
+
+            Custo: 5 PM.
+
+        Prisão de Água: Imobiliza o inimigo por um turno.
+
+            Custo: 5 PM.
+
+Paladino
+
+O Paladino é o protetor do grupo. Sua aura protege e ajuda seus aliados.
+
+    Aura de Proteção: Ativada por 2 PA. Aumenta a resistência a dano e a cura por turno de todos os aliados em uma área ao redor do Paladino. A duração pode ser de 3 turnos.
+
+        Custo: 2 PA.
+
+    Cura Divina: O Paladino pode usar uma ação para curar a si mesmo ou a um aliado, restaurando uma quantidade significativa de vida.
+
+        Custo: 2 PA.
+
+
